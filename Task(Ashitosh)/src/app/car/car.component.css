@@ -1,0 +1,15 @@
+.buttons{
+    display: flex;
+    flex-direction: column;
+}
+button{
+    margin: 10px;
+}
+.card{
+    margin: 10px;
+}
+.list{
+    display: flex !important;
+    flex-direction: row !important;
+    flex-wrap: wrap;
+}

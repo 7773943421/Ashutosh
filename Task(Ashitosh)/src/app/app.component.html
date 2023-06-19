@@ -1,0 +1,16 @@
+<!-- {{Name}} -->
+
+
+<nav>
+    <ul class="nav nav-tabs">
+        <li class="nav-item"><a  routerLinkActive="active" routerLink="/app-car" class="nav-link">car</a></li>
+    </ul>
+</nav>
+
+<app-hooks [parentData]="data"></app-hooks>
+<button (click)="changecolor()">Change color</button>
+
+
+<app-inpute [child]="Name" (fromChild)="onparent($event)"></app-inpute>
+
+<router-outlet></router-outlet>

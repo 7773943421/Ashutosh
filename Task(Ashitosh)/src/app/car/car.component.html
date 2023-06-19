@@ -1,0 +1,54 @@
+
+
+<!-- 
+<div class="center">
+
+    <div class="card mb-3" style="max-width: 540px;">
+        <div class="row g-0" *ngFor="let car of carinfo">
+            <div class="col-md-4">
+                <img src="{{car.img}}" class="img-fluid rounded-start" alt="...">
+            </div>
+      <div class="col-md-8">
+        <div class="card-body">
+            <h5 class="card-title">{{car.Nameofcar}}</h5>
+            <div>
+                <h5> Car Details</h5>
+                <p class="card-text">{{car.Information}}</p>
+            </div>
+            <div>
+                <h5>Car Price</h5>
+                <h4 class="card-text"><small class="text-body-secondary">{{car.price}}</small></h4>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div> -->
+
+<div  class="list"style="align-content: center;">
+<div class="row g-0" *ngFor="let car of carinfo">
+<div class="card" style="width: 18rem;">
+    <img src="{{car.img}}" class="img-fluid rounded-start" alt="...">
+    <div class="card-body">
+        <h5 class="card-title">{{car.Nameofcar}}</h5>
+        <div>
+            <h5> Car Details</h5>
+            <p class="card-text">{{car.Information}}</p>
+        </div>
+        <div>
+            <h5>Car Price</h5>
+            <h4 class="card-text"><small class="text-body-secondary">{{car.price}}</small></h4>
+        </div>
+        <div class="buttons">
+            <button (click)="deleteCar(car.id)">Remove the Car</button>
+            <button (click)="acService(car.id,car)">AC service</button>
+            <button (click)="dnP(car.id,car)">Denting and panting</button>
+            <button (click)="cC(car.id,car)">Car Cleaning</button>
+            <button (click)="cW(car.id,car)">Car Wash</button>
+        </div>
+       
+        <h2 *ngIf="checkBill(car)">Total Bills:{{car.totalBill}}</h2>
+    </div>
+  </div>
+</div>
+</div>

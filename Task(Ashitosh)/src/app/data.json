@@ -1,0 +1,43 @@
+{
+  "Car": [
+    {
+      "Nameofcar": "Skoda",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRGMjMzPEMeArO4T-OFmjEdXIrIqIIIe-rCpIfa_rY&s",
+      "Information": "Škoda Auto a.s. (Czech pronunciation: [ˈʃkoda] (listen)), often shortened to Škoda, is a Czech automobile manufacturer established in 1925 as the successor to Laurin & Klement and headquartered in Mladá Boleslav, Czech Republic. Škoda Works became state owned in 1948. After 1991, it was gradually privatized to the German Volkswagen Group, becoming a partial subsidiary in 1994 and a wholly owned subsidiary in 2000.[3",
+      "price": "10 lack",
+      "id": 3
+    },
+    {
+      "Nameofcar": "Nissan",
+      "img": "https://stimg.cardekho.com/images/carexteriorimages/930x620/Nissan/Magnite/8127/1608191740345/front-left-side-47.jpg?tr=w-375",
+      "Information": "Nissan Motor Corporation (Japanese: 日産自動車株式会社, Hepburn: Nissan Jidōsha kabushiki gaisha), often shortened to Nissan,[a] is a Japanese multinational automobile manufacturer headquartered in Nishi-ku, Yokohama, Japan. The company sells its vehicles under the Nissan and Infiniti brands, and formerly the Datsun brand, with in-house performance tuning products (including cars) labelled Nismo. The company traces back to the beginnings of the 20th century, with the Nissan zaibatsu, now called Nissan Group.",
+      "price": "7 lack",
+      "id": 4
+    },
+    {
+      "Nameofcar": "Audi",
+      "img": "https://stimg.cardekho.com/images/carexteriorimages/930x620/Audi/A4/9321/1670914111785/front-left-side-47.jpg",
+      "Information": "Audi AG (German: [ˈaʊ̯di ʔaːˈɡeː] (listen)) is a German automotive manufacturer of luxury vehicles headquartered in Ingolstadt, Bavaria, Germany. As a subsidiary of its parent company, the Volkswagen Group, Audi produces vehicles in nine production facilities worldwide.",
+      "price": "43 lack",
+      "id": 5
+    },
+    {
+      "Nameofcar": "Land Rover",
+      "img": "https://stimg.cardekho.com/images/carexteriorimages/930x620/Land-Rover/Range-Rover/9018/1676541159356/front-left-side-47.jpg?tr=w-375",
+      "Information": "Land Rover is a British brand of predominantly four-wheel drive, off-road capable vehicles, owned by multinational car manufacturer Jaguar Land Rover (JLR), since 2008 a subsidiary of India's Tata Motors.[3] JLR currently builds Land Rovers in Brazil, China, India, Slovakia, and the United Kingdom. The Land Rover name was created in 1948 by the Rover Company for a utilitarian 4WD off-road vehicle; currently, the Land Rover range consists solely of upmarket and luxury sport utility vehicles.",
+      "price": "71 lack",
+      "id": 6
+    },
+    {
+      "Nameofcar": "Ferrari",
+      "img": "https://images.unsplash.com/photo-1592198084033-aade902d1aae?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8ZmVycmFyaXxlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80",
+      "Information": "Ferrari S.p.A. (/fəˈrɑːri/; Italian: [ferˈraːri]) is an Italian luxury sports car manufacturer based in Maranello, Italy. Founded in 1939 by Enzo Ferrari (1898–1988), the company adopted its current name in 1945 and began producing its line of cars in 1947. Ferrari became a public company in 1960, and from 1969 to 2014 it was a subsidiary of Fiat S.p.A. It was spun off from Fiat's successor entity, Fiat Chrysler Automobiles, in 2016.",
+      "price": "3.50 crore",
+      "id": 7,
+      "totalBill": 5500,
+      "dentingAndPainting": 2000,
+      "carCleaning": 2500,
+      "carWash": 1000
+    }
+  ]
+}
